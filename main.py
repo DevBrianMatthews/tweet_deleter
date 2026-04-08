@@ -5,7 +5,7 @@ import re
 import json
 import time
 
-def get_client(): # retorna el cliente autenticado
+def get_client():
     client = tweepy.Client(
         consumer_key=os.getenv("API_KEY"),
         consumer_secret=os.getenv("API_SECRET"),
@@ -15,7 +15,7 @@ def get_client(): # retorna el cliente autenticado
     return client
 
 
-def read_archive(): # lee y parsea el archivo
+def read_archive():
     with open('tweets.js', 'r', encoding='utf-8') as f:
         contenido = f.read()
 
