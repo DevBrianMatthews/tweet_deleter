@@ -1,6 +1,6 @@
 # TWIXIT
 
-![Twixit Banner](/twixit/assets/Banner.png)
+![Twixit Banner](assets/Banner.png)
 
 ![Stars](https://img.shields.io/github/stars/DevBrianMatthews/twixit?style=for-the-badge&logo=github&logoColor=white)
 ![Last Commit](https://img.shields.io/github/last-commit/DevBrianMatthews/twixit?style=for-the-badge&logo=github&logoColor=white&color=orange)
